@@ -6,6 +6,9 @@
 <strong>Frogger takes place with a frog, who works to navigate across moving cars, logs, and turtles! 
 <br />The player wins if they can reach the end of the level, without getting hit 3 times!</strong>
 <br /> <br />
+To play my Frogger game, Greenfoot must be installed (Can install Greenfoot here: https://www.greenfoot.org/download). 
+Then, clone the repository and open the project.greenfoot file! Press the Run button in the Greenfoot interface and enjoy!
+<br /> <br />
 <strong>Game Elements</strong>
 <ul>
  <li><strong>Frog</strong> - The frog is the main character of Frogger, who works to navigate across moving cars, logs, and turtles</li>
