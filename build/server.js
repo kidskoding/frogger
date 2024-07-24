@@ -14,7 +14,6 @@ app.use(express.static(path.join(__dirname, '/public/')));
 app.get('/', async (req, res) => {
     try {
         const froggerUrl = process.env.FROGGER_URL;
-        console.log(froggerUrl);
         if(!froggerUrl) {
             throw new Error("Game URL is not defined. Cannot load game");
         }
