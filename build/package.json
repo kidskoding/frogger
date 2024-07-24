@@ -1,5 +1,5 @@
 {
-  "name": "production",
+  "name": "build",
   "version": "1.0.0",
   "description": "Production build that contains a clone of popular arcade game Frogger that was built with Java game engine Greenfoot",
   "main": "server.js",
@@ -18,6 +18,7 @@
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
     "nodemon": "^3.1.4"
   }
 }

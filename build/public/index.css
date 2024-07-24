@@ -1,0 +1,14 @@
+p {
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body, iframe {
+    align-items: flex-end;
+}
