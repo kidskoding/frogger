@@ -1,14 +1,11 @@
-p {
-    color: red;
+.info {
+    margin-top: -450px;
+    margin-left: 30px;
 }
 
-.header {
+.game {
+    margin-top: -10px;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
-}
-
-body, iframe {
-    align-items: flex-end;
 }

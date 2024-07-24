@@ -2,10 +2,21 @@
 <html>
 <head>
     <title>Frogger</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <iframe src="<%= froggerUrl %>" width="700" height="690"></iframe>
+    <div class="container">
+        <div class="game">
+            <iframe src="<%= froggerUrl %>" width="700" height="690" scrolling="no"></iframe>
+        </div>
+        <div class="info">
+            <h1>Frogger</h1>
+            <p>Created by kidskoding</p>
+            <a href="https://github.com/kidskoding/frogger">GitHub repository containing game source code</a>
+        </div>
+    </div>
 </body>
 </html>
