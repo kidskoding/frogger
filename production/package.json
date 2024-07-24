@@ -1,0 +1,23 @@
+{
+  "name": "production",
+  "version": "1.0.0",
+  "description": "Production build that contains a clone of popular arcade game Frogger that was built with Java game engine Greenfoot",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kidskoding/frogger"
+  },
+  "author": "kidskoding",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
