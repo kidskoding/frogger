@@ -14,12 +14,12 @@ app.use(express.static(path.join(__dirname, '/public/')));
 app.get('/', async (req, res) => {
     try {
         const froggerUrl = process.env.FROGGER_URL;
-        if (!froggerUrl) {
+        console.log(froggerUrl);
+        if(!froggerUrl) {
             throw new Error("Game URL is not defined. Cannot load game");
         }
-
         res.render('index', { froggerUrl });
-    } catch (error) {
+    } catch(error) {
         console.error('Error fetching game data:', error);
         res.status(500).json({ error: 'Failed to fetch game data' });
     }
