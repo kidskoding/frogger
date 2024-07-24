@@ -1,15 +1,29 @@
 # frogger
  The classic Frogger arcade game made using a Java game engine - Greenfoot!
- 
+ <br /> <br />
 <img src="https://github.com/kidskoding/Frogger/assets/68204671/57d774b6-40cb-4e2f-a637-56deca1b736c" width="50%" height="50%">
+# How to play Frogger game
+<ol>
+ <li>Clone this repository</li>
+ <li>Open a terminal and set the current directory to the root folder of the cloned repo</li>
+ <br /> <br />
+ <strong>Example</strong>
+ <br />
+ <img src="https://github.com/user-attachments/assets/b6389f01-4852-4191-aaa1-451e89938493" width="50%" height="50%">
+ <br /><br />
+ <li><strong>Install <a href="https://nodejs.org/en/download/prebuilt-installer">Node</a> and then execute the following commands one by one</strong></li>
+ <br />
+ <code>cd build</code>
+ <br />
+ <code>npm run build</code>
+ <br /> <br />
+ <li><strong>This will create a server on your machine on port 3000. Navigate to localhost:3000 on any browser and enjoy!</strong></li>
+</ol>
 <br /> <br />
 <strong>Frogger takes place with a frog, who works to navigate across moving cars, logs, and turtles! 
 <br />The player wins if they can reach the end of the level, without getting hit 3 times!</strong>
-<br /> <br />
-To play my Frogger game, Greenfoot must be installed (Can install Greenfoot here: https://www.greenfoot.org/download). 
-Then, clone the repository and open the project.greenfoot file! Press the Run button in the Greenfoot interface and enjoy!
-<br /> <br />
-<strong>Game Elements</strong>
+
+# Game Elements
 <ul>
  <li><strong>Frog</strong> - The frog is the main character of Frogger, who works to navigate across moving cars, logs, and turtles</li>
  <ul>
